@@ -1,0 +1,66 @@
+:root{
+    --font-family:  'Montserrat', sans-serif;
+    --blue: #0042EB;
+    --purple: #960796;
+    --salate: #3AB19B;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-family);
+}
+/* CONSOLE - start */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+span{
+    color: var(--blue);
+    font-weight: 700;
+}
+p{
+    border-left: 2px solid var(--blue);
+    padding: 12px 11px;
+    
+    font-weight: 400;
+}
+h2{
+    margin: 50px 0;
+}
+/* CONSOLE - end */
+
+/* GIT - start */
+h2{
+    margin: 50px 0;
+}
+ul{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.git ul li{
+    list-style: none;
+    padding: 12px 11px;
+    font-weight: 400;
+    position: relative;
+}
+.git ul li:before{
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-color: var(--purple);
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+span:first-of-type{
+    color: var(--purple);
+}
+span:first-of-type(1){
+    color: var(--salate);
+}
+
+/* GIT - end */
